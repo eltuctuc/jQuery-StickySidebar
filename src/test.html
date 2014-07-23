@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TODO supply a title</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" href="normalize.css">
+		<style type="text/css">
+			* {
+				box-sizing: border-box;
+			}
+			body {
+				background: rgba(0,0,0,1);
+			}
+			#wrapper {
+				width: 960px;
+				margin: 0 auto;
+			}
+			nav ul {
+				margin: 0;
+				padding: .2em;
+				list-style: none;
+			}
+			nav li {
+				display: inline-block;
+				margin: 0;
+				padding: 0;
+			}
+			nav li a {
+				display: block;
+				padding: .2em 1em;
+				color: white;
+				text-decoration: none;
+			}
+			
+			#top-navi {
+				position: fixed;
+				top: 0; left: 0;
+				width: 100%;
+				background: rgba(51,26,26,.95);
+			}
+			#top-navi ul {
+				width: 960px;
+				margin: 0 auto;
+				text-align: right;
+				padding: 1em 0;
+			}
+			
+			#main-navi ul {
+				width: 960px;
+				margin: 0 auto;
+			}
+			
+			header {
+				margin-top: 3.5em;
+			}
+			
+			article {
+				min-height: 1000px;
+				padding: 2em;
+				background: rgba(255,255,255,.2);
+				color: white;
+			}
+			
+			.left {
+				float: left;
+				margin: .25em 1em 0 0;
+			}
+			
+			.right {
+				float: right;
+				margin: .25em 0 0 1em;
+			}
+			
+			footer {
+				clear: both;
+				background: #c0c0c0;
+				padding: 1em 2em 2em;
+			}
+			
+			.sticky {
+				position: relative;
+				background: rgba(25,25,25,1);
+			}
+			.sticky-top {
+				position: fixed;
+				top: 0; left: 0;
+				width: 100%;
+				transition: all .5s ease-in-out;
+			}
+			#main-navi.sticky-top {
+				background: rgba(127,0,0,.85);
+			}
+			
+		</style>
+		<script type="text/javascript" src="modernizr.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			
+			<nav id="top-navi">
+				<ul>
+					<li><a href="#">CC</a></li>
+					<li><a href="#">Mein JOY</a></li>
+					<li><a href="#">Clubmail</a></li>
+					<li><a href="#">Kontakte</a></li>
+					<li><a href="#">Profil</a></li>
+				</ul>
+			</nav>
+			
+			<header>
+				<figure>
+					<img src="http://placehold.it/960x200" alt="header">
+				</figure>
+			</header>
+			<nav id="main-navi">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+
+			<article>
+				<h1>TODO write content</h1>
+				
+				<figure class="left">
+					<img src="http://placehold.it/320x240" alt="header">
+				</figure>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dapibus diam lorem, vel scelerisque sem auctor quis. Pellentesque eros arcu, accumsan eu viverra ac, auctor nec metus. Duis volutpat quam eu urna interdum, a mollis mi sagittis. Donec dignissim metus eget vestibulum aliquet. Aenean sollicitudin, nulla lobortis pulvinar rutrum, sapien nisi sagittis enim, et auctor turpis metus eget sem. Ut accumsan, libero a mattis convallis, sapien orci blandit ante, in scelerisque nunc lacus id nulla. Etiam volutpat, magna et bibendum gravida, ligula lacus volutpat libero, non vehicula metus enim id ante. Sed nibh ligula, egestas vitae nunc ac, rhoncus tincidunt odio. Duis non odio sit amet ligula accumsan pretium. Curabitur in urna imperdiet, faucibus massa et, pretium massa. Curabitur sapien tellus, gravida scelerisque lorem sed, congue mattis ligula. Suspendisse potenti. Praesent quis lectus sed metus volutpat condimentum. Cras vitae rhoncus ante, sed tempor arcu.
+				</p>
+				<p>
+					Aliquam cursus gravida turpis, bibendum euismod enim dictum quis. Aliquam turpis augue, dictum et arcu quis, dapibus accumsan ligula. Donec quis magna sit amet massa venenatis elementum sed lobortis erat. Morbi id suscipit urna. Suspendisse at nulla rutrum, ullamcorper nunc a, porta magna. Donec enim leo, accumsan at lorem a, faucibus interdum turpis. Ut scelerisque sagittis sem eu malesuada. Mauris gravida condimentum gravida. In sit amet posuere urna. Maecenas odio ante, ultricies eget erat in, luctus venenatis ante. Nullam congue congue nibh, sed pulvinar sapien hendrerit eget.
+				</p>
+				<figure class="left">
+					<img src="http://placehold.it/320x240" alt="header">
+				</figure>
+				<p>
+					Curabitur in luctus tellus, ac bibendum odio. Curabitur hendrerit dolor non turpis fermentum, ut porta elit vehicula. Curabitur sed mattis odio. Quisque quis ligula eu dui tempus semper. Pellentesque imperdiet dapibus odio, vel sodales eros bibendum nec. Phasellus vel molestie diam. Integer vulputate at erat sit amet viverra. Nulla feugiat odio bibendum nulla sodales, vel varius libero pretium. Nulla nisi velit, rutrum eget auctor id, vehicula convallis velit. Nullam volutpat sapien a accumsan bibendum. Vestibulum tincidunt mollis est sed porttitor. Proin at purus in tortor ornare gravida. Praesent condimentum ultricies eros, sed molestie risus fringilla eleifend. Sed neque mi, porta vel libero a, dictum faucibus metus. Mauris nec mollis orci. Sed sit amet sapien quis lacus elementum commodo.
+				</p>
+				<figure class="right">
+					<img src="http://placehold.it/320x240" alt="header">
+				</figure>
+				<p>
+					Morbi vitae lorem vitae velit dapibus tempor. Nullam feugiat et diam ac lobortis. Donec viverra diam dui, non fringilla diam mollis vitae. Integer ac turpis in lacus eleifend vulputate. Sed ut justo feugiat, cursus turpis quis, convallis velit. Nunc vitae elit vitae massa ornare ullamcorper nec at urna. Vestibulum sagittis turpis at risus malesuada, in congue orci suscipit. Aliquam erat volutpat. Proin rhoncus elementum quam nec mattis. Curabitur vel justo vulputate, scelerisque est a, sagittis enim. Integer aliquam congue eros, a interdum massa malesuada eu.
+				</p>
+				<p>
+					Proin porta, odio ut dictum congue, dui tellus tempus ante, non gravida erat nunc a purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam tempus urna id risus varius, vitae malesuada lorem laoreet. Suspendisse porta odio non leo convallis interdum. Aenean rutrum ac arcu nec fermentum. Vivamus vitae lacus enim. Sed eu lobortis est. Curabitur hendrerit varius sapien non feugiat. Integer velit est, bibendum id urna molestie, rhoncus tincidunt mauris. Duis bibendum tempus ornare. Sed sed purus eu augue pretium sollicitudin. Nunc et sapien a leo malesuada porta. Aliquam malesuada aliquam diam eget vulputate. Sed at felis velit. Quisque sagittis elit at libero lobortis adipiscing.
+				</p>
+			</article>
+
+			<footer>
+				<p>2014 &copy; RE-Design &ndash; Enrico reinsdorf</p>
+			</footer>
+		
+		</div>
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="jquery.sticky-sidebar.js"></script>
+		<script type="text/javascript">
+			
+			$(function () {
+				$('#main-navi').stickySidebar({
+					'top': 55
+				});
+			});
+			
+		</script>
+	</body>
+</html>
